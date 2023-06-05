@@ -18,9 +18,9 @@ const Contact = () => {
             mohmdfarazali@gmail.com
           </p>
         </div>
-        <input className="bg-[#ccd6f6] p-2 rounded" type="text" name="name" placeholder="Name"/>
-        <input className="my-4 p-2 bg-[#ccd6f6] rounded" type="email" name="email" placeholder="Email"/>
-        <textarea name="message" className="bg-[#ccd6f6] p-2 rounded" rows="10" placeholder="Message"></textarea>
+        <input className="bg-[#ccd6f6] p-2 rounded" type="text" name="name" placeholder="Name" required/>
+        <input className="my-4 p-2 bg-[#ccd6f6] rounded" type="email" name="email" placeholder="Email" required/>
+        <textarea name="message" className="bg-[#ccd6f6] p-2 rounded" rows="10" placeholder="Message" required></textarea>
         <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center duration-500'>Let's Collaborate<FcCollaboration className="ml-2" size={20}/></button>
       </form>
     </div>
