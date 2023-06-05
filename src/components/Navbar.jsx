@@ -10,7 +10,7 @@ const Navbar = () => {
     "https://www.linkedin.com/in/mohmdfarazali/",
     "https://github.com/mohmdfarazali",
     "mailto:mohmdfarazali@gmail.com",
-    "https://drive.google.com",
+    "https://flowcv.com/resume/owhou141ai",
   ];
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
