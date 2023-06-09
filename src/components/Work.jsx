@@ -1,6 +1,7 @@
 import React from "react";
 import ThreeDCal from "../assets/projects/3dcal.jpg";
 import Gify from "../assets/projects/gify.jpg";
+import TaskSavvy from "../assets/projects/TaskSavvy.png"
 
 const Work = () => {
   return (
@@ -16,6 +17,31 @@ const Work = () => {
         {/* grid/card container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid item */}
+          {/* --------------------- */}
+          <div
+            style={{ backgroundImage: `url(${TaskSavvy})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 z-10">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Task Savvy
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://todo-nextjs-firebase-two.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                </a>
+                <a href="https://github.com/mohmdfarazali/todo-nextjs-firebase">
+                  <button className="text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* --------------------- */}
           <div
             style={{ backgroundImage: `url(${Gify})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -39,6 +65,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* --------------------- */}
           <div
             style={{ backgroundImage: `url(${ThreeDCal})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -62,6 +89,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/* --------------------- */}
         </div>
       </div>
     </div>
