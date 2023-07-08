@@ -20,14 +20,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a dedicated and motivated BTech CSE student at Jamia Hamdard,
-              proficient in C++, HTML, CSS, JS, ReactJS, Tailwind CSS,
-              NodeJS, Express, MongoDB. With a strong technical foundation, I
-              thrive on new challenges and projects, constantly seeking novel
-              applications for my skills and knowledge. Fueled by creativity and
-              innovation, my problem-solving approach drives me to develop web
-              applications, explore cutting-edge technologies, and master new
-              programming languages.
+            I am a dedicated 4th-year BTECH CSE student at Jamia Hamdard, driven by a strong passion for software development. My expertise lies in C++ and Data Structures, and I am actively expanding my knowledge in areas such as Data Structures and Algorithms and SQL. I possess skills in ReactJS, HTML, CSS, and Next.js, which enable me to excel in frontend web development. With a solid understanding of Object-Oriented Programming principles, I can design efficient and scalable software solutions. I also have a strong foundation in computer science fundamentals, including knowledge of operating systems and database fundamentals, specifically SQL. As a proactive learner, I am committed to delivering high-quality software solutions and constantly seek opportunities for personal and professional growth in the field of software development.
             </p>
           </div>
         </div>
