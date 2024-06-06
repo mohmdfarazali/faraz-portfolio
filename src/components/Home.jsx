@@ -12,13 +12,10 @@ const Home = () => {
           Mohammad Faraz Ali
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer.
+          I'm a Data Engineer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I specialize in creating outstanding digital experiences as a
-          full-stack developer, with occasional involvement in designing. My
-          current focus lies in constructing responsive web applications with a
-          comprehensive skill set.
+        I specialize in creating outstanding digital experiences as a <b>Data Engineer</b> at <b>Hexaview Technologies Inc.</b> My primary focus lies in leveraging <b>MS SQL Server</b> and <b>Power BI</b> to build robust data solutions and insightful reports. With a comprehensive skill set, I ensure the seamless management and visualization of data to drive business intelligence and decision-making.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-500">

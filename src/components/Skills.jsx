@@ -1,28 +1,30 @@
 import React from "react";
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import ReactImg from "../assets/react.png";
-// import Node from "../assets/node.png";
+// import HTML from "../assets/html.png";
+// import CSS from "../assets/css.png";
+// import JavaScript from "../assets/javascript.png";
+// import ReactImg from "../assets/react.png";
 import Cpp from "../assets/cpp.png";
 import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+// import Mongo from "../assets/mongo.png";
 import Nextjs from "../assets/nextjs.png";
-import Firebase from "../assets/firebase.png";
+// import Firebase from "../assets/firebase.png";
 import Github from "../assets/github.png";
+import MSSqlServer from "../assets/ms_sql_server.png";
+import PowerBI from "../assets/power_bi.svg"
 
 const skillsData = [
+  { name: "MS SQL Server", src: MSSqlServer, color: "border-red-700", alt: "mssqlserver" },
+  { name: "Power BI", src: PowerBI, color: "border-yellow-700", alt: "cpp" },
   { name: "C++", src: Cpp, color: "border-blue-700", alt: "cpp" },
-  { name: "HTML", src: HTML, color: "border-orange-400", alt: "html" },
-  { name: "CSS", src: CSS, color: "border-blue-400", alt: "css" },
-  { name: "JavaScript", src: JavaScript, color: "border-yellow-400", alt: "js" },
-  { name: "ReactJS", src: ReactImg, color: "border-cyan-400", alt: "react" },
+  // { name: "HTML", src: HTML, color: "border-orange-400", alt: "html" },
+  // { name: "CSS", src: CSS, color: "border-blue-400", alt: "css" },
+  // { name: "JavaScript", src: JavaScript, color: "border-yellow-400", alt: "js" },
+  // { name: "ReactJS", src: ReactImg, color: "border-cyan-400", alt: "react" },
   { name: "Next.js", src: Nextjs, color: "border-white", alt: "nextjs" },
   { name: "Tailwind CSS", src: Tailwind, color: "border-cyan-600", alt: "tailwind" },
-  // { name: "NodeJS", src: Node, color: "border-green-500", alt: "node" },
-  { name: "MongoDB", src: Mongo, color: "border-green-400", alt: "mongo" },
-  { name: "Firebase", src: Firebase, color: "border-yellow-600", alt: "firebase" },
+  // { name: "MongoDB", src: Mongo, color: "border-green-400", alt: "mongo" },
+  // { name: "Firebase", src: Firebase, color: "border-yellow-600", alt: "firebase" },
   { name: "Git/GitHub", src: Github, color: "border-cyan-600", alt: "github" },
 ];
 

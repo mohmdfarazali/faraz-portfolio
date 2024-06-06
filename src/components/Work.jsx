@@ -1,16 +1,15 @@
 import React from "react";
 import ThreeDCal from "../assets/projects/3dcal.jpg";
-import Gify from "../assets/projects/gify.jpg";
 import SwiftChat from "../assets/projects/SwiftChat.png";
 import TaskSavvy from "../assets/projects/TaskSavvy.png";
-import Threadly from "../assets/projects/Threadly.png";
+import Imaginify from "../assets/projects/Imaginify.png";
 
 const projects = [
   {
-    name: "Threadly 🪡",
-    image: Threadly,
-    liveLink: "https://threadly-nine.vercel.app/",
-    codeLink: "https://github.com/mohmdfarazali/threadly",
+    name: "Imaginify 🌠",
+    image: Imaginify,
+    liveLink: "https://imaginify-tawny.vercel.app/",
+    codeLink: "https://github.com/mohmdfarazali/imaginify",
   },
   {
     name: "Swift Chat 💬",
@@ -23,12 +22,6 @@ const projects = [
     image: TaskSavvy,
     liveLink: "https://todo-nextjs-firebase-two.vercel.app/",
     codeLink: "https://github.com/mohmdfarazali/todo-nextjs-firebase",
-  },
-  {
-    name: "Gify - Generate Gifs ",
-    image: Gify,
-    liveLink: "https://mzbu95.csb.app/",
-    codeLink: "https://github.com/mohmdfarazali/Gify",
   },
   {
     name: "3D Calculator",

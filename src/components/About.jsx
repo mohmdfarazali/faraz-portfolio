@@ -20,7 +20,7 @@ const About = () => {
           </div>
           <div>
             <p>
-            I am a dedicated 4th-year BTECH CSE student at Jamia Hamdard, driven by a strong passion for software development. My expertise lies in C++ and Data Structures, and I am actively expanding my knowledge in areas such as Data Structures and Algorithms and SQL. I possess skills in ReactJS, HTML, CSS, and Next.js, which enable me to excel in frontend web development. With a solid understanding of Object-Oriented Programming principles, I can design efficient and scalable software solutions. I also have a strong foundation in computer science fundamentals, including knowledge of operating systems and database fundamentals, specifically SQL. As a proactive learner, I am committed to delivering high-quality software solutions and constantly seek opportunities for personal and professional growth in the field of software development.
+            I work as an Associate Data Engineer 🧑🏻‍💻 at Hexaview Technologies Inc. I thrive on turning complex data into clear, actionable insights using MS SQL Server and Power BI 📊. My goal is to empower businesses with the data they need to make informed decisions and achieve their goals 🚀. Let's connect and explore how we can drive success together!
             </p>
           </div>
         </div>
